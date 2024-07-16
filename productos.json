@@ -1,0 +1,26 @@
+
+  {
+    "productos":[
+    {
+    "id": "1",
+    "nombre": "2010-11 Argentina Away Shirt Messi #10 ",
+    "precio": "150",
+    "condicion": "Semi Nueva",
+    "url_imagen": "https://www.classicfootballshirts.co.uk/cdn-cgi/image/fit=pad,q=70,f=webp//pub/media/catalog/product//4/5/45a0f4e06b82890243c3b378586eebaaba17511724b204157e1a50632b997c1b.jpeg"
+  },
+  {
+    "id": "2",
+    "nombre": "2005-07 Argentina Home Shirt Messi #19",
+    "precio": "185.99",
+    "condicion": "Usada",
+    "url_imagen": "https://www.classicfootballshirts.co.uk/cdn-cgi/image/fit=pad,q=70,f=webp//pub/media/catalog/product//d/c/dc5ee82c4d5082c3f56e64734cfbe0a7c593809f8b642e1db30b8af352e9529d.jpeg"
+  },
+  {
+    "id": "3",
+    "nombre": "2004-05 Argentina Away Shirt Crespo #9",
+    "precio": "280",
+    "condicion": "Nueva",
+    "url_imagen": "https://www.classicfootballshirts.co.uk/cdn-cgi/image/fit=pad,q=70,f=webp//pub/media/catalog/product//d/8/d879dacce7daff865275ee0e7be28afb2578d72c902410ef477291c18e0df48b.jpeg"
+  }
+]
+}

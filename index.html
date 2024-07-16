@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <title>Alura-Sports</title>
+</head>
+<body>
+    <header>
+        <div class="titulo_header">
+            <h1 class="h1_header">Tu trader deportivo favorito</h1>
+        </div>
+
+        <nav>
+            <li class="nav_li">
+                <a href="#" class="">Home</a>
+            </li>
+            <li class="nav_li">
+                <a href="#" class="">Productos</a>
+            </li>
+            <li class="nav_li">
+                <a href="#" class="">Deportes</a>
+            </li>
+            <li class="nav_li">
+                <a href="#" class="" >Catálogo</a>
+            </li>
+            <li class="nav_li">
+                <input  type="search" placeholder="Buscar productos">
+            </li>
+
+        </nav>
+    </header>
+    <main>
+            <ul class="productos_container" alt="productos Alura-Sports" data-lista></ul>
+                <form class="form_container" data-formulario>
+                    <h2 class="form_titulo">AGREGA TU PRODUCTO</h2>
+                    <div class="form_campo">
+                        <label class="campo_etiqueta" for="nombre">Nombre del producto</label>
+                        <input name="Nombre" class="campo_escrita" required placeholder="Pon el nombre/descripcion del producto"
+                            id='nombre' data-nombre/>
+                    </div>
+
+                    <div class="form_campo">
+                        <label class="campo_etiqueta" for="">Precio</label>
+                        <input name="Precio" class="campo_escrita" required placeholder="Pon el precio del producto en U$D"
+                            id='precio' data-precio/>
+                    </div>
+
+                    <div class="form_campo">
+                        <label class="campo_etiqueta" for="condicion">Condicion</label>
+                        <input name="Condicion" class="campo_escrita" required placeholder="Nuevo/semi-nuevo/usado"
+                            id='condicion' data-condicion/>
+                    </div>
+
+                    <div class="form_campo">
+                        <label class="campo_etiqueta" for="id">ID del Producto</label>
+                        <input name="id_producto" class="campo_escrita" required placeholder="Ingresa el ID deseado para tu producto"
+                            id='id_producto' data-id/>
+                    </div>
+
+                    <div class="form_campo">
+                        <label class="campo_etiqueta" for="url_imagen">Url de la imagen</label>
+                        <input name="url_imagen" class="campo_escrita" required placeholder="Pon la url de la imagen del producto"
+                            id='url_imagen' data-url_imagen/>
+                    </div>
+
+
+                    <input class="form_boton"  type="submit" value="Publicar producto"/>
+                </form>
+    </main>
+    <footer>
+        <div class="titulo_footer">
+            <h1 class="h1_footer">Tu trader deportivo favorito</h1>
+        </div>
+        <div class="derechos">
+            <h4>Desarrollado por Lautaro Montes de Oca. Derechos reservados </h4>
+        </div>
+        
+    </footer>
+    <script src="./js/crearProducto.js" type="module"></script>
+    <script src="./js/mostrarProductos.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,177 @@
+
+body {
+    background-color: #f3eded;
+}
+
+header {
+    background-color: rgb(168, 87, 243);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+    padding: 5px;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+}
+
+main {
+    width: 100%;
+    display: flex;
+}
+.titulo_header {
+    display: flex;
+    justify-content: center;
+}
+
+.h1_header {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+}
+
+.nav_li {
+    list-style-type: none;
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF
+}
+
+.nav_li a,
+li {
+    text-decoration: none;
+    align-self: center;
+    color: #FFFFFF;
+}
+
+/*Estilos del Formulario*/
+.section_form {
+    width: 472px;
+    height: 517px;
+    margin-top: 15px;
+    background-color: rgb(194, 140, 244);
+}
+
+.form_container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 400px;
+    height: fit-content;
+    
+    margin-top: 16px;
+    border-radius: 5%;
+}
+.form_titulo {
+    margin-left: 20px;
+}
+
+.form_campo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+.campo_escrita {
+    width: 300px;
+    height: 28px;
+    border-color: rgb(194, 140, 244);
+}
+
+.campo_etiqueta {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.form_boton {
+    width: fit-content;
+    height: 40px;
+    background-color: rgb(194, 140, 244);
+    border:0;
+    border-radius: 10%;
+    margin-left:110px;
+}
+/*Fin*/
+/* Estilos del producto */
+.productos_container {
+    gap: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.productos_item {
+    width:420px;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(194, 140, 244);
+    border-radius: 5%;
+    border-color: black;
+}
+
+.descripcion_producto {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 240px;
+}
+
+.descripcion_producto h5 {
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.descripcion_producto p {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.img_producto {
+    width: 10em;
+    height: 10em;
+    border-radius: 10%;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+.btn-eliminar{
+    width: 22px;
+    display: flex;
+    margin: 10px 20px;
+    align-self: flex-end;
+    color:black
+}
+/* fin */
+
+
+footer {
+    background-color: rgb(168, 87, 243);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 140px;
+
+
+}
+
+.titulo_footer {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+}
+
+.h1_footer {
+    display: flex;
+    justify-content: center;
+}
+
+.derechos {
+    color: #FFFFFF;
+    background-color: rgb(148, 61, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
