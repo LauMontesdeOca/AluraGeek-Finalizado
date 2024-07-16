@@ -36,12 +36,6 @@ const borrarProducto = async(id) =>{
     return console.log(err);
 }
 }
-// async function eliminarTarjeta(id)  {
-//     const conexion = await fetch(`"http://localhost:3000/productos"${id}`, 
-//         {method: "DELETE",
-//         headers: {"Content-type":"application/json"}
-//     })
-// console.log ("elimine tarjeta")}
 
 export const conexionAPI={
     listarProductos, enviarProducto, borrarProducto
